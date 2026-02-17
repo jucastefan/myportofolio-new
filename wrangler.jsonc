@@ -1,6 +1,6 @@
 {
   "name": "myportofolio-new",
-  "main": "index.html",
+  "main": "dist/index.html",
   "compatibility_date": "2026-02-17",
   "assets": {
     "directory": "./dist",

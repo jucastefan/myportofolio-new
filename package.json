@@ -4,11 +4,11 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build --output-path=dist",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "deploy": "ng build --prod --base-href /juca-stefan-portofolio/ && ngh --dir=dist/juca-stefan-portofolio "
+    "deploy": "npm run build && wrangler deploy"
   },
   "private": true,
   "dependencies": {
@@ -38,6 +38,7 @@
     "@angular-devkit/build-angular": "^21.1.4",
     "@angular/cli": "^21.1.4",
     "@angular/compiler-cli": "^21.1.4",
+    "@cloudflare/workers-kv-asset-handler": "^0.3.0",
     "@types/jasmine": "~5.1.0",
     "@types/node": "^22.0.0",
     "angular-cli-ghpages": "^3.0.0",
@@ -49,6 +50,7 @@
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "^2.1.0",
     "ts-node": "~10.9.0",
-    "typescript": "~5.9.0"
+    "typescript": "~5.9.0",
+    "wrangler": "^3.78.0"
   }
 }

@@ -1,0 +1,19 @@
+name = "juca-stefan-portofolio"
+type = "javascript"
+main = "_worker.ts"
+compatibility_date = "2026-02-17"
+
+# Configure static assets from the dist folder
+[build]
+command = "npm run build"
+
+[build.upload]
+format = "service-worker"
+
+[[env.production.routes]]
+pattern = "juca-stefan-portofolio.pages.dev/*"
+zone_id = ""
+
+[[env.production.routes]]
+pattern = "yourdomain.com/*"
+zone_id = ""

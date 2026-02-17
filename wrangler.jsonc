@@ -1,12 +1,11 @@
 {
   "name": "myportofolio-new",
   "compatibility_date": "2026-02-17",
-  "site": {
-    "bucket": "./dist/juca-stefan-portofolio",
-  },
+  "main": "_worker.ts",
   "build": {
     "command": "npm run build",
-    "cwd": "./",
+    "upload": {
+      "dir": "./dist/juca-stefan-portofolio",
+    },
   },
-  "main": "_worker.ts",
 }

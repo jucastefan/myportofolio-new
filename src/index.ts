@@ -3,24 +3,24 @@
  */
 
 export default {
-	async fetch(request: Request): Promise<Response> {
-		return fetch(request);
-	},
+  async fetch(request: Request): Promise<Response> {
+    return fetch(request);
+  },
 } satisfies ExportedHandler<Env>;
 
 interface Env {}
 
 export interface ExportedHandler<Env = unknown> {
-	fetch: ExportedHandlerFetchHandler<Env>;
+  fetch: ExportedHandlerFetchHandler<Env>;
 }
 
 export type ExportedHandlerFetchHandler<Env = unknown> = (
-	request: Request,
-	env: Env,
-	ctx: ExecutionContext,
+  request: Request,
+  env: Env,
+  ctx: ExecutionContext,
 ) => Response | Promise<Response>;
 
 interface ExecutionContext {
-	waitUntil(promise: Promise<any>): void;
-	passThroughOnException(): void;
+  waitUntil(promise: Promise<any>): void;
+  passThroughOnException(): void;
 }

@@ -1,5 +1,5 @@
 export default {
-	async fetch(request: Request): Promise<Response> {
-		return fetch(request);
-	},
+  async fetch(request: Request): Promise<Response> {
+    return fetch(request);
+  },
 };

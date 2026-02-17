@@ -1,5 +1,12 @@
+import type { KVNamespace } from "@cloudflare/workers-types";
+
+interface Env {
+  __STATIC_CONTENT: KVNamespace;
+  __STATIC_CONTENT_MANIFEST: string;
+}
+
 export default {
-  async fetch(request: Request, env: any): Promise<Response> {
+  async fetch(request: Request, env: Env): Promise<Response> {
     const url = new URL(request.url);
 
     try {

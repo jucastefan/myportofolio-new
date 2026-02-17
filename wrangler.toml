@@ -1,6 +1,6 @@
 name = "juca-stefan-portofolio"
 type = "javascript"
-main = "_worker.ts"
+main = "functions/_worker.ts"
 compatibility_date = "2026-02-17"
 
 # Configure static assets from the dist folder

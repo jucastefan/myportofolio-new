@@ -1,0 +1,105 @@
+{
+  "Header.Item1": "About me",
+  "Header.Item2": "Experience",
+  "Header.Item3": "Projects",
+  "Header.Item4": "Contact",
+  "Header.cvBtn": "Resume",
+  "Header.cvName": "cv.pdf",
+  "Banner.Pretitle": "Hello! My name is",
+  "Banner.Description": "I’m a Full‑Stack Developer with <span class='underline'>3 years of experience</span> creating scalable web applications.  I build responsive, user‑friendly  <span class='underline'>frontends</span>, I specialize in creating responsive, user-friendly interfaces using <span class='underline'>with Angular</span> and reliable <span class='underline'>backends</span> with Node.js and Go. I aim for clean, reusable code and modern practices to deliver solutions that are both technically solid and aligned with your business needs.",
+  "Banner.ActionBtn": "Get in touch",
+  "AboutMe.Title": "About me",
+  "AboutMe.Paragraphs": [
+    "Over the past <span class='underline'>3 years</span> as a Full-Stack Developer, I am working end‑to‑end on enterprise applications, developing <span class='underline'>backend APIs</span> and services with Express.js and MongoDB to building backend systems. My toolkit includes frontend frameworks such as <span class='underline'>Angular</span> , and backend stacks like <span class='underline'>Node.js, Express.js, and Go</span>",
+    "My approach emphasizes scalable, maintainable systems. I optimize performance, enforce reusable patterns, and prioritize clean code."
+  ],
+  "Experience.Title": "Experience",
+  "Experience.Jobs": [
+    {
+      "Tab": "Lenovo",
+      "Title": "Software Engineer",
+      "Date": "July 2023 - Present",
+      "Description": [
+        "Plan and prioritize tasks from the sprint or backlog; break features into actionable tickets.",
+        "Write and review code for frontend and backend systems.",
+        "Implement UI components with HTML, CSS/SCSS, and JavaScript or framework-specific patterns such as Angular.",
+        "Working with MVC frameworks to develop robust and scalable backends.",
+        "Troubleshot and fix bugs and issues in the backend and frontend to ensure smooth operation of the applications.",
+        "Collaborate with cross-functional teams (designers, product managers, QA) to align on requirements.",
+        "Maintain security and compliance best practices (input validation, auth, secrets handling).",
+        "Mentor and share knowledge with developers; help onboard new team members."
+      ]
+    },
+    {
+      "Tab": "Military",
+      "Title": "Police Officer",
+      "Date": "September 2019 - July 2023",
+      "Description": [
+        "Performed preliminary and follow-up investigations, including evidence collection, witness interviews, and report documentation.",
+        "Collaborated with other officers, specialized units, and external agencies to coordinate operations and share intelligence.",
+        "Maintained physical readiness, situational awareness, and adherence to operational protocols at all times.",
+        "Prepared detailed incident reports and documentation used for legal proceedings and case follow-ups."
+      ]
+    }
+  ],
+  "FeatureProjects.Title": "Projects that I am/was part of",
+  "FeatureProjects.Label": "Featured Project",
+  "FeatureProjects.Projects": [
+    {
+      "Title": "Lenovo XClarity One",
+      "Description": "<span class='underline'>Lenovo XClarity One</span> is a unified and flexible management platform that streamlines the administration of <span class='underline'>Lenovo servers</span>. Deployable either as a hybrid cloud-based solution or as an on-premises virtual machine, it provides a consistent and intuitive interface for monitoring, managing, and optimizing data center infrastructure.",
+      "imgs": ["assets/images/xc1/image1.png", "assets/images/xc1/image2.png"],
+      "demoLink": "https://www.lenovo.com/ro/ro/servers-storage/software/xclarityone/?srsltid=AfmBOor00-sIgG6gO4vbU1VpV23Gw7aE44jBlIbAzQoIMpZlMqnk-Q8L"
+    },
+    {
+      "Title": "Lenovo XClarity One Hub",
+      "Description": "<span class='underline'>Hubs</span> are light-weight device managers that act as a secure bridge between the <span class='underline'>Lenovo XClarity One</span> portal and your on-premises devices. The hubs are the only devices that communicate directly with the <span class='underline'>XClarity One</span>.",
+      "imgs": ["assets/images/hub/image1.png", "assets/images/hub/image2.png"],
+      "demoLink": "https://support.lenovo.com/us/en/solutions/ht516467-lenovo-xclarity-management-hub-20"
+    },
+    {
+      "Title": "Lenovo XClarity Orchestrator",
+      "Description": "<span class='underline'>Lenovo XClarity Orchestrator</span> provides centralized monitoring, management, provisioning, and analytics for environments with large numbers of devices. It leverages existing resource managers (such as <span class='underline'>Lenovo XClarity Administrator</span> and Schneider Electric EcoStruxure IT Expert) across multiple sites to view overall health, collect device inventory and health summaries, drill down into device details, view event and audit logs, and apply updates to managed resources.",
+      "imgs": [
+        "assets/images/lxco/image1.png",
+        "assets/images/lxco/image2.png"
+      ],
+      "demoLink": "https://pubs.lenovo.com/lxco/lxco-overview"
+    }
+  ],
+  "OtherProjects.Title": "More personal projects",
+  "OtherProjects.Projects": [
+    {
+      "Title": "HamburgerStore",
+      "Description": "HamburgerStore it's a restaurant that adapts to the taste of each client. Here are the most delicious burgers ever made. From our love for cooking but also the desire to offer quality services our fast food restaurant is an excellent choice",
+      "ghLink": "https://github.com/jucastefan/hamburgerstore",
+      "demoLink": "http://hamburgerstore.pages.dev/",
+      "Technologies": ["React", "CSS", "HTML5", "Bootstrap", "Firebase"]
+    },
+    {
+      "Title": "SushiShop",
+      "Description": "Sushi Shop is the ultimate luxury and a dish that is most commonly associated with Japan. It can be made in so many different ways and using so many different ingredients, there is something for everyone. Learn how to make sushi and find out what other ingredients you can use",
+      "ghLink": "https://github.com/jucastefan/sushishop",
+      "demoLink": "https://scintillating-gaufre-ad6c20.netlify.app/",
+      "Technologies": ["React", "CSS", "HTML5", "Firebase"]
+    },
+    {
+      "Title": "ArtOnCanvas",
+      "Description": "It has different functionalities including Log In, Register, Shopping Cart, Place Order, User Profile (a person can change his name or email if he wants) and Shipping Order. The Back-end it's represented by a Node.js Server and a Database, both deployed on Heroku.",
+      "ghLink": "https://github.com/jucastefan/artoncanvas",
+      "demoLink": "https://artoncanvas.pages.dev/",
+      "Technologies": ["JavaScript", "Node.js", "Bootstrap", "HTML5", "CSS"]
+    },
+    {
+      "Title": "ProjectUploader",
+      "Description": "We all need a helping hand. For me, ProjectUploader is the ideal tool to help me store projects in the database of my portfolio. The idea of this project came to me while I was filling out the database and I said it wouldn't be bad to put into practice",
+      "ghLink": "https://github.com/jucastefan/projectuploader",
+      "demoLink": "https://projectuploader.netlify.app/",
+      "Technologies": ["React", "CSS", "HTML5", "Bootstrap", "Firebase"]
+    }
+  ],
+  "Contact.Pretitle": "What’s Next",
+  "Contact.Title": "Get in touch!",
+  "Contact.Content": "I’d be glad to connect if you’re interested in discussing new opportunities. Feel free to reach out—I'll respond as soon as I see your message. This is a clean, one‑page layout showcasing a brief profile and essential personal details.",
+  "Contact.Btn": "Say Hello"
+}

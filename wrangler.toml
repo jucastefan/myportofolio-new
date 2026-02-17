@@ -3,6 +3,9 @@ type = "javascript"
 main = "functions/_worker.ts"
 compatibility_date = "2026-02-17"
 
+[site]
+bucket = "./dist"
+
 # Configure static assets from the dist folder
 [build]
 command = "npm run build"

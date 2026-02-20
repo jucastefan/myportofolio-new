@@ -5,6 +5,7 @@ router-outlet,
 app-footer {
   position: relative;
   z-index: 99;
+  overflow-x: hidden !important;
 }
 
 body {

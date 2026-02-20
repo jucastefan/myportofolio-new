@@ -70,6 +70,10 @@
 
 @media (max-width: 500px) {
   .about {
+    .skills-list {
+      grid-template-columns: 1fr;
+      column-gap: 1rem;
+    }
     .about-img-container img {
       width: 200px;
       height: 200px;

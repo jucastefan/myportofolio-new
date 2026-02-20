@@ -6,7 +6,7 @@
   "Header.cvBtn": "Resume",
   "Header.cvName": "cv.pdf",
   "Banner.Pretitle": "Hello! My name is",
-  "Banner.Description": "I’m a Full‑Stack Developer with <span class='underline'>3 years of experience</span> creating scalable web applications.  I build responsive, user‑friendly  <span class='underline'>frontends</span>, I specialize in creating responsive, user-friendly interfaces using <span class='underline'>with Angular</span> and reliable <span class='underline'>backends</span> with Node.js and Go. I aim for clean, reusable code and modern practices to deliver solutions that are both technically solid and aligned with your business needs.",
+  "Banner.Description": "Full‑stack developer with <span class='underline'>3 years</span> of experience building enterprise applications using <span class='underline'>Angular</span>, <span class='underline'>Node.js</span>, <span class='underline'>Express.js</span>, and <span class='underline'>Go</span>.",
   "Banner.ActionBtn": "Get in touch",
   "AboutMe.Title": "About me",
   "AboutMe.Paragraphs": [
@@ -25,7 +25,6 @@
         "Working with MVC frameworks to develop robust and scalable backends.",
         "Troubleshot and fix bugs and issues in the backend and frontend to ensure smooth operation of the applications.",
         "Collaborate with cross-functional teams (designers, product managers, QA) to align on requirements.",
-        "Maintain security and compliance best practices (input validation, auth, secrets handling).",
         "Mentor and share knowledge with developers; help onboard new team members."
       ]
     },

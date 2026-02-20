@@ -10,7 +10,7 @@
   "Banner.ActionBtn": "Get in touch",
   "AboutMe.Title": "About me",
   "AboutMe.Paragraphs": [
-    "Over the past <span class='underline'>3 years</span> as a Full-Stack Developer, I am working end‑to‑end on enterprise applications, developing <span class='underline'>backend APIs</span> and services with Express.js and MongoDB to building backend systems. My toolkit includes frontend frameworks such as <span class='underline'>Angular</span> , and backend stacks like <span class='underline'>Node.js, Express.js, and Go</span>",
+    "Over the past <span class='underline'>3 years</span> as a Full-Stack Developer, I am working end‑to‑end on enterprise applications, developing <span class='underline'>backend APIs</span> and services. My toolkit includes frontend frameworks such as <span class='underline'>Angular</span> , and backend stacks like <span class='underline'>Node.js, Express.js, and Go</span>",
     "My approach emphasizes scalable, maintainable systems. I optimize performance, enforce reusable patterns, and prioritize clean code."
   ],
   "Experience.Title": "Experience",

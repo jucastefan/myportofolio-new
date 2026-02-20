@@ -20,12 +20,12 @@
       "Title": "Software Engineer",
       "Date": "July 2023 - Present",
       "Description": [
-        "Write and review code for frontend and backend systems.",
-        "Implement UI components with HTML, CSS/SCSS, and JavaScript or framework-specific patterns such as Angular.",
-        "Working with MVC frameworks to develop robust and scalable backends.",
-        "Troubleshot and fix bugs and issues in the backend and frontend to ensure smooth operation of the applications.",
-        "Collaborate with cross-functional teams (designers, product managers, QA) to align on requirements.",
-        "Mentor and share knowledge with developers; help onboard new team members."
+        "Write and review frontend and backend code.",
+        "Build UI components using HTML, CSS/SCSS, JavaScript, and Angular.",
+        "Develop scalable backends using MVC frameworks.",
+        "Debug and fix issues across the stack.",
+        "Collaborate with designers, product managers, and QA teams.",
+        "Mentor developers and support onboarding."
       ]
     },
     {
@@ -33,10 +33,9 @@
       "Title": "Police Officer",
       "Date": "September 2019 - July 2023",
       "Description": [
-        "Performed preliminary and follow-up investigations, including evidence collection, witness interviews, and report documentation.",
-        "Collaborated with other officers, specialized units, and external agencies to coordinate operations and share intelligence.",
-        "Maintained physical readiness, situational awareness, and adherence to operational protocols at all times.",
-        "Prepared detailed incident reports and documentation used for legal proceedings and case follow-ups."
+        "Coordinated operations with officers, units, and external agencies.",
+        "Maintained readiness, awareness, and compliance with protocols.",
+        "Prepared detailed reports for legal and follow‑up procedures."
       ]
     }
   ],

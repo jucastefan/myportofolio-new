@@ -137,6 +137,7 @@
     bottom: 0;
     width: 36px;
     height: 60px;
+    margin-right: 30px;
     cursor: pointer;
     z-index: 11;
     .hamburger-menu,
@@ -195,7 +196,7 @@
   position: fixed;
   width: 100%;
   top: 0;
-  z-index: 9;
+  z-index: 999;
   height: 100px;
   transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
 }
@@ -215,13 +216,13 @@
   }
 }
 
-@media (max-width: 827px) {
+@media (max-width: 992px) {
   nav .nav {
     display: none;
   }
 }
 
-@media (min-width: 827px) {
+@media (min-width: 992px) {
   .menu-wrapper,
   .menu-responsive {
     display: none;

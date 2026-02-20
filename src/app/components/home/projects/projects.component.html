@@ -1,4 +1,4 @@
-<section class="section proyects" id="proyects">
+<section class="section projects" id="projects">
   <div class="container">
     <div class="section-box">
       <div data-aos="fade-up" data-aos-duration="1000">
@@ -13,7 +13,7 @@
           let project of 'FeatureProjects.Projects' | translate;
           let i = index
         "
-        class="d-flex proyect-container"
+        class="d-flex project-container"
         data-aos="fade-up"
         data-aos-duration="1000"
       >
@@ -26,7 +26,7 @@
             <ng-template carouselSlide [id]="project.Title + slide + i">
               <div #imgContainer class="img-container">
                 <img
-                  class="img-feature-proyect rounded"
+                  class="img-feature-project rounded"
                   [src]="img"
                   [alt]="project.Title"
                 />
@@ -35,15 +35,15 @@
           </ng-container>
         </owl-carousel-o>
         <div
-          class="img-feature-proyect-container"
+          class="img-feature-project-container"
           data-aos="fade-up"
           data-aos-duration="1000"
           *ngIf="i % 2 == 0"
         >
-          <div class="img-feature-proyect-box">
+          <div class="img-feature-project-box">
             <div class="img-container" style="width: auto">
               <img
-                class="img-feature-proyect rounded"
+                class="img-feature-project rounded"
                 [src]="project.imgs[0]"
                 [alt]="project.imgs[0]"
                 width="600px"
@@ -52,34 +52,34 @@
           </div>
         </div>
         <div
-          [class.proyect-info-right]="i % 2 == 0"
-          [class.proyect-info-left]="i % 2 != 0"
+          [class.project-info-right]="i % 2 == 0"
+          [class.project-info-left]="i % 2 != 0"
           class="h-100"
           style="background-image: url('{{ project.img }}');"
         >
-          <div class="proyect-box">
+          <div class="project-box">
             <h4
               [class.text-right]="i % 2 == 0"
               [class.text-left]="i % 2 != 0"
-              class="feature-proyect"
+              class="feature-project"
             >
               {{ "FeatureProjects.Label" | translate }}
             </h4>
             <h5
               [class.text-right]="i % 2 == 0"
               [class.text-left]="i % 2 != 0"
-              class="proyect-name"
+              class="project-name"
             >
               {{ project.Title }}
             </h5>
 
-            <div class="proyect-description-box" (click)="debug()">
+            <div class="project-description-box" (click)="debug()">
               <p class="mb-0" [innerHTML]="project.Description"></p>
             </div>
             <ul
               [class.justify-content-end]="i % 2 == 0"
               [class.justify-content-start]="i % 2 != 0"
-              class="proyect-skills"
+              class="project-skills"
             >
               <li *ngFor="let technology of project.Technologies" class="ml-3">
                 <span class="underline technology">{{ technology }}</span>
@@ -88,7 +88,7 @@
             <div
               [class.text-right]="i % 2 == 0"
               [class.text-left]="i % 2 != 0"
-              class="proyect-links"
+              class="project-links"
             >
               <a
                 *ngIf="project['ghLink']"
@@ -116,7 +116,7 @@
             <ng-template carouselSlide [id]="project.Title + slide + i">
               <div class="img-container">
                 <img
-                  class="img-feature-proyect rounded"
+                  class="img-feature-project rounded"
                   [src]="img"
                   [alt]="project.Title"
                 />
@@ -125,15 +125,15 @@
           </ng-container>
         </owl-carousel-o>
         <div
-          class="img-feature-proyect-container"
+          class="img-feature-project-container"
           data-aos="fade-up"
           data-aos-duration="1000"
           *ngIf="i % 2 != 0"
         >
-          <div class="img-feature-proyect-box">
+          <div class="img-feature-project-box">
             <div class="img-container" style="width: auto">
               <img
-                class="img-feature-proyect rounded"
+                class="img-feature-project rounded"
                 [src]="project.imgs[0]"
                 [alt]="project.imgs[0]"
                 width="600px"

@@ -59,7 +59,7 @@
             background-color: $LightNavy;
           }
 
-          .proyect-date {
+          .project-date {
             color: $WarmGold;
             font-family: $CodeFont;
             font-size: 16px;
@@ -70,7 +70,7 @@
             width: 10%;
           }
 
-          .proyect-title {
+          .project-title {
             padding-top: 15px;
             color: $LightestSlate;
             font-size: 20px;
@@ -80,7 +80,7 @@
             padding: 10px 20px;
           }
 
-          .proyect-company {
+          .project-company {
             width: 15%;
             padding-top: 15px;
             font-size: 18px;
@@ -88,7 +88,7 @@
             line-height: 1.5;
             padding: 10px 20px;
           }
-          .proyect-skills {
+          .project-skills {
             font-size: 12px;
             font-family: $CodeFont;
             cursor: default;
@@ -96,7 +96,7 @@
             padding: 10px 20px;
           }
 
-          .proyect-links {
+          .project-links {
             cursor: default;
             line-height: 1.5;
             padding: 10px 20px;
@@ -119,8 +119,8 @@
 }
 
 @media (max-width: 768px) {
-  .proyect-company,
-  .proyect-skills,
+  .project-company,
+  .project-skills,
   .hide-on-mobile {
     display: none;
   }
